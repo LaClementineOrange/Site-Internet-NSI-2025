@@ -1,5 +1,11 @@
-body {
-  background-color: #0c0c0c;
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;  
 }
 
 body {
@@ -15,15 +21,16 @@ body {
 
 img {
   display: block;
-  border-radius: 25px;
-  background-color: rgb(0, 253, 13);
-  padding: 7.5px;
 }
+
 
 #main_img_1 {
   float: right;
-  margin-right: 7%;
+  margin-right: 6%;
   width: 35%;
+  background-color:#050505;
+  border-radius: 25px;
+  padding: 7.5px;
 }
 
 #main_img_2 {
@@ -31,4 +38,30 @@ img {
   margin-left: 12%;
   margin-top: 10%;
   width: 35%;
+  background-color:#0c1019;
+  border-radius: 25px;
+  padding: 7.5px;
+}
+
+#git_logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+#main_img_1:hover {
+	background-color: #ffffff;
+  width: 40%;
+  cursor: pointer;
+}
+#main_img_2:hover {
+	background-color: #ffffff;
+  width: 40%;
+  cursor: pointer;
+}
+#git_logo:hover {
+	background-color: #000000;
 }
