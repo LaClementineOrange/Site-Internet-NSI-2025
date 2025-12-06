@@ -1,26 +1,11 @@
+/* Base */
 body {
   color: rgb(255, 255, 255);
   font-family: "Inter";
 }
 
 
-img {
-  display: block;
-}
-
-#git_logo {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #ffffff;
-  border-radius: 25px;
-  padding: 5px;
-}
-
-#git_logo:hover {
-	background-color: #000000;
-}
-
+/* CMD */
 #back {
   width: 90%;
   height: 90vh;
@@ -64,10 +49,16 @@ img {
 	display : block;
 	content: "x";
 }
+.tab:hover {
+  background-color: darkgray;
+}
+.tab.selected:hover {
+	background-color: black;
+}
 
 a {
   color: white;
-  font-weight: bold;
+  font-weight: bold;;
 }
 .os {
 	flex-grow: 5;
@@ -111,10 +102,42 @@ a {
   font-family: Consolas, "Cascadia Mono", monospace;
 }
 
+
+/* Text */
 p {
   color : white
 }
 
-h1,h2 {
+h2,h1 {
   color : greenyellow;
+}
+
+
+/* Credits */
+#credits {
+  position: fixed;
+  left: 15px;
+  bottom: 0px;
+  color: gray;
+  font-weight: bold;
+}
+#green {
+  color: #279627;
+}
+#orange {
+  color: #bb7a03;
+}
+
+#git_logo {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 5px;
+  width: 3.2%;
+}
+
+#git_logo:hover {
+	background-color: #000000;
 }

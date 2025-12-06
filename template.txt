@@ -13,9 +13,9 @@
 
     <div id="back">
         <div id="bar">
-            <a href="index.html" class="tab selected">Accueil 🏠</a>
+            <a href="index.html" class="tab">Accueil 🏠</a>
             <a href="pegasus.html" class="tab">Pegasus 🐎</a>
-            <a href="notpetya.html" class="tab">NotPetya 🦠</a>
+            <a href="not_petya.html" class="tab">NotPetya 🦠</a>
             <a href="credits.html" class="tab">Crédits 📜</a>
             <div class="os">
                 <a href="#" class="end" id="else"> - </a>
@@ -24,14 +24,14 @@
             </div>
         </div>
 
-
     <div class="content">
 
-        <!-- TEXTE ICI --!>
+        <p> credits </p>
         
     </div>
 
     <a href="https://github.com/LaClementineOrange/Web-Site-NSI-2025#"><img src="src/github_logo.png" width="60" id="git_logo"></a>
+    <p id="credits"> Créé par <a href="https://github.com/LaClementineOrange"><em id="orange">LaClémentineOrange</em></a>🍊et <a href="https://github.com/Pablosaure10"><em id="green">Pablosaure</em></a>🦖</p>
 
 </div>
 
