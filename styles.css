@@ -141,7 +141,7 @@ h3 {
 }
 
 #title {
-  font-size: 300px;
+  font-size: 300%;
 }
 
 .under {
@@ -191,4 +191,5 @@ h3 {
 @keyframes typing {
   from { width: 0 }
   to { width: 5ch } /* ch = nb charactères */
+
 }
